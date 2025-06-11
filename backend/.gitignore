@@ -1,0 +1,25 @@
+# Node modules
+/node_modules
+./node_modules
+
+# Prisma generated client
+/src/generated/prisma
+src/generated/
+
+# SQLite database files
+prisma/dev.sqlite
+prisma/dev.sqlite-journal
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs e editores comuns
+.vscode/
+.idea/
+.DS_Store
