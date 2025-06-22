@@ -1,10 +1,21 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
+import { ConfigProvider, theme } from 'antd';
+import App from './App';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+const customTheme = {
+  token: {
+    colorPrimary: '#0D0065', // nova cor primária
+    colorSuccess: '#52c41a',
+    colorWarning: '#faad14',
+    colorError: '#ff4d4f',
+    borderRadius: 8,
+  },
+};
+
+createRoot(document.getElementById('root')).render(
+  <ConfigProvider theme={customTheme}>
     <App />
-  </StrictMode>,
-)
+  </ConfigProvider>
+  )
