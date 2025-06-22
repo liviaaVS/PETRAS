@@ -6,7 +6,7 @@
 :root {
   --primary-color: #0D0065;
   --secondary-color: #50e3c2;
-  --background-color: #EDE6FF;
+  --background-color: #fdfcff;
   --warning-color: #ffda37;
   --warning-color-hover: #e4c124;
   --text-color: #38383D;
@@ -64,4 +64,8 @@ nav{
 
 .ant-float-btn-body:hover{
  background-color: var(--warning-color-hover) !important;
+}
+
+.ant-btn-color-primary {
+  box-shadow: none ;
 }

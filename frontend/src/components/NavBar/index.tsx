@@ -14,8 +14,8 @@ export default function NavBar() {
   ];
 
   return (
-    <header className="flex px-[3em] py-[1rem] bg-[#EDE6FF]">
-      <nav className="flex w-full justify-between items-center flex-wrap">
+    <header className="flex px-[5em] py-[1rem]">
+      <nav className="flex w-full justify-between items-center flex-wrap gap-4">
         <img src="/logo.svg" alt="logo" />
         <ul className="flex w-100 justify-around gap-[2rem]">
           {menuItems.map((item) => (

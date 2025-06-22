@@ -28,6 +28,7 @@ export default function PetraButton({
       icon={icon}
       iconPosition={iconPosition}
       onClick={onClick}
+      className='shadow-sm'
     >
       {children}
     </Button>
