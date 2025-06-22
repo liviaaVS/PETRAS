@@ -8,7 +8,7 @@ function App() {
   return (
     <main className="App d-flex flex-column h-100 gap-[2rem]">
       <NavBar/>
-      <img src="banner-index2.png" />
+      <img src="banner-index2.png" className="w-full"/>
     <FloatButton   tooltip={{
         // tooltipProps is supported starting from version 5.25.0.
         title: 'Site em construção. Novidades em breve!',
