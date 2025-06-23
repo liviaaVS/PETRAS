@@ -36,7 +36,10 @@ export default function NavBar() {
           size="large"
           loading={false}
           icon={<CalculatorOutlined />}
-          onClick={() => console.log("clicado")}
+          onClick={() =>
+            (window.location.href =
+              "https://api.whatsapp.com/send?phone=558496729317&text=Ol%C3%A1%21%20Vim%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20Realizar%20um%20or%C3%A7amento!")
+          }
           iconPosition="end"
         >
           Simular Orçamento
